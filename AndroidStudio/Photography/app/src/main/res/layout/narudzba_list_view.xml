@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_kupljeni_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Broj Narudzbe : "
+            android:id="@+id/textView26"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginRight="5dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Broj narudzbe : "
+            android:id="@+id/broj_narudzbeTxt"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_kupljeni_2"
+        android:layout_below="@+id/linear_kupljeni_1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Datum Narudzbe : "
+            android:id="@+id/textView27"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Datum narudzbe : "
+            android:id="@+id/datum_narudzbe"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_kupljeni_4"
+        android:layout_below="@+id/linear_kupljeni_3"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Ukupno : "
+            android:id="@+id/textView29"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ukupno"
+            android:id="@+id/ukupno_narudzbe_txt"
+            android:textSize="14dp" />
+    </LinearLayout>
+</LinearLayout>

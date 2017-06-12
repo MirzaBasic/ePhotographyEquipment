@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_proizvodi"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Proizvodi" />
+        <item
+            android:id="@+id/nav_akcija"
+            android:icon="@drawable/ic_money_off_black_24dp"
+            android:title="Akcija" />
+        <item
+            android:id="@+id/nav_korpa"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="Korpa" />
+        <item
+            android:id="@+id/nav_narudzbe"
+            android:icon="@drawable/ic_shop_black_24dp"
+            android:title="Narudzbe" />
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Profile" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout" />
+    </menu>
+    </item>
+
+</menu>

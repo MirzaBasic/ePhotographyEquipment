@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_proizvodi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:title="Akcija"
+            android:background="?attr/colorPrimary"
+            android:elevation="0dp"
+
+
+            app:layout_scrollFlags="scroll|enterAlways">
+
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/firstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First name: "
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignParentBottom="false"
+                />
+
+            <EditText
+                android:id="@+id/txtFirstName"
+
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/txt_shape"
+                android:enabled="false"
+
+
+
+
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last name: "
+
+                android:layout_alignBottom="@+id/txtLastName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:layout_alignParentBottom="false"
+                />
+
+            <EditText
+                android:id="@+id/txtLastName"
+
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="200dp"
+                android:enabled="false"
+                android:background="@drawable/txt_shape"
+
+
+
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username: "
+
+                android:layout_alignBottom="@+id/txtUsername"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignParentBottom="false"
+                />
+
+            <EditText
+                android:id="@+id/txtUsername"
+                android:layout_alignParentRight="true"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:enabled="false"
+                android:background="@drawable/txt_shape"
+
+
+
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: "
+
+                android:layout_alignBottom="@+id/txtEmail"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                android:layout_alignParentBottom="false"
+                />
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_alignParentRight="true"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:enabled="false"
+                android:background="@drawable/txt_shape"
+
+
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password: "
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignBottom="@+id/txtPassword"
+                android:layout_alignParentBottom="false"
+                />
+
+            <EditText
+                android:id="@+id/txtPassword"
+
+                android:layout_alignParentRight="true"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:background="@drawable/txt_shape"
+
+
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/layoutButtonChange"
+        android:visibility="visible"
+
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Change info"
+
+                android:id="@+id/btnChangeInfo"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/layoutButtons"
+        android:visibility="invisible"
+
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Cancel"
+                android:id="@+id/btnCancelSave"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Save Changes"
+                android:id="@+id/btnSaveInfo"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
