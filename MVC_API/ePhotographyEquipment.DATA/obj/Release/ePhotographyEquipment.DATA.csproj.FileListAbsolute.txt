@@ -1,5 +1,0 @@
-H:\Android\SeminarskiRadovi\ePhotographyEquipment\ePhotographyEquipment.DATA\bin\Release\ePhotographyEquipment.DATA.dll
-H:\Android\SeminarskiRadovi\ePhotographyEquipment\ePhotographyEquipment.DATA\bin\Release\ePhotographyEquipment.DATA.pdb
-H:\Android\SeminarskiRadovi\ePhotographyEquipment\ePhotographyEquipment.DATA\obj\Release\ePhotographyEquipment.DATA.csprojResolveAssemblyReference.cache
-H:\Android\SeminarskiRadovi\ePhotographyEquipment\ePhotographyEquipment.DATA\obj\Release\ePhotographyEquipment.DATA.dll
-H:\Android\SeminarskiRadovi\ePhotographyEquipment\ePhotographyEquipment.DATA\obj\Release\ePhotographyEquipment.DATA.pdb
